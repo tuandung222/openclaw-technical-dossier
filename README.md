@@ -1,38 +1,38 @@
 # OpenClaw Technical Dossier
 
-Repository này chứa bộ tài liệu phân tích mã nguồn OpenClaw phục vụ 4 nhóm độc giả:
+This repository contains a technical source-code analysis package for OpenClaw, designed for four primary audiences:
 
 - Agent Architect
 - AI Agent Engineer
 - LLM Engineer
 - LLM/Agent Data Scientist
 
-## Cấu trúc tài liệu
+## Documentation Structure
 
-- `docs/baseline-v1/`: bản tài liệu cũ (v1), đã được chuyển nguyên trạng vào subfolder
-- `docs/deep-dive-v2/`: bản super deep-dive thế hệ 2
-- `docs/deep-dive-v3/`: bản **ultra deep-dive (PhD-level)**, có formal model + Mermaid + call-flow theo file/function
+- `docs/baseline-v1/`: original first-pass documentation, preserved as-is in a subfolder
+- `docs/deep-dive-v2/`: second-generation super deep-dive set
+- `docs/deep-dive-v3/`: **ultra deep-dive (PhD-level)** set with formal models, Mermaid diagrams, and file/function call-flow analysis
 
-## Snapshot deep-dive hiện tại
+## Current Deep-Dive Snapshot
 
 - Source repo: `https://github.com/openclaw/openclaw`
 - Commit: `445c7a65e6d1348f5a64f3ca8ad45369d0ab2027`
 - Commit time: `2026-02-23 18:19:23 +0000`
 
-## Quick start
+## Quick Start
 
-1. Đọc `docs/deep-dive-v3/00_navigator.md`
-2. Chọn track theo vai trò
-3. Dùng `docs/baseline-v1/` và `docs/deep-dive-v2/` làm tham chiếu evolution
+1. Read `docs/deep-dive-v3/00_navigator.md`
+2. Choose a role-based reading track
+3. Use `docs/baseline-v1/` and `docs/deep-dive-v2/` as evolution references
 
-## Quy mô snapshot (ước lượng)
+## Snapshot Size (Approximate)
 
 - Total files: ~6,245
-- LOC trong `src/`: ~654,679
-- TS files toàn repo: ~4,427
-- Tests trong `src` (test/e2e/live): ~1,355
+- LOC in `src/`: ~654,679
+- TypeScript files (repo-wide): ~4,427
+- Tests in `src` (test/e2e/live patterns): ~1,355
 - Plugin manifests: 36
 
-## Ghi chú
+## Note
 
-Bộ tài liệu tập trung vào implementation và kiến trúc runtime. Không thay thế tài liệu vận hành chính thức của OpenClaw.
+This dossier focuses on implementation behavior and runtime architecture. It does not replace official OpenClaw operational documentation.
