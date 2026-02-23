@@ -10,7 +10,8 @@ Repository này chứa bộ tài liệu phân tích mã nguồn OpenClaw phục 
 ## Cấu trúc tài liệu
 
 - `docs/baseline-v1/`: bản tài liệu cũ (v1), đã được chuyển nguyên trạng vào subfolder
-- `docs/deep-dive-v2/`: bản **super deep-dive** mới (mở rộng và cập nhật snapshot code mới)
+- `docs/deep-dive-v2/`: bản super deep-dive thế hệ 2
+- `docs/deep-dive-v3/`: bản **ultra deep-dive (PhD-level)**, có formal model + Mermaid + call-flow theo file/function
 
 ## Snapshot deep-dive hiện tại
 
@@ -20,9 +21,9 @@ Repository này chứa bộ tài liệu phân tích mã nguồn OpenClaw phục 
 
 ## Quick start
 
-1. Đọc `docs/deep-dive-v2/00_navigator.md`
+1. Đọc `docs/deep-dive-v3/00_navigator.md`
 2. Chọn track theo vai trò
-3. Dùng `docs/baseline-v1/` làm tham chiếu so sánh evolution giữa v1 và v2
+3. Dùng `docs/baseline-v1/` và `docs/deep-dive-v2/` làm tham chiếu evolution
 
 ## Quy mô snapshot (ước lượng)
 
