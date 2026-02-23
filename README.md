@@ -1,43 +1,37 @@
 # OpenClaw Technical Dossier
 
-Bộ tài liệu này phân tích mã nguồn OpenClaw ở mức kiến trúc và implementation để phục vụ 4 nhóm độc giả chính:
+Repository này chứa bộ tài liệu phân tích mã nguồn OpenClaw phục vụ 4 nhóm độc giả:
 
 - Agent Architect
 - AI Agent Engineer
 - LLM Engineer
 - LLM/Agent Data Scientist
 
-## Snapshot được phân tích
+## Cấu trúc tài liệu
 
-- Repository gốc: `https://github.com/openclaw/openclaw`
-- Commit: `114736ed1a52de47043d9154e2cf6508a16fe5b6`
-- Ngày commit: `2026-02-18 00:09:51 -0800`
+- `docs/baseline-v1/`: bản tài liệu cũ (v1), đã được chuyển nguyên trạng vào subfolder
+- `docs/deep-dive-v2/`: bản **super deep-dive** mới (mở rộng và cập nhật snapshot code mới)
 
-## Quy mô mã nguồn (ước lượng từ snapshot)
+## Snapshot deep-dive hiện tại
 
-- Tổng file: ~5,640
-- Tổng LOC trong `src/`: ~569,432
-- File TypeScript toàn repo: ~3,891
-- Tài liệu Markdown toàn repo: ~765
-- File test trong `src/` (pattern `.test/.e2e/.live`): ~1,094
-- Extension plugin khai báo `openclaw.plugin.json`: 36
+- Source repo: `https://github.com/openclaw/openclaw`
+- Commit: `445c7a65e6d1348f5a64f3ca8ad45369d0ab2027`
+- Commit time: `2026-02-23 18:19:23 +0000`
 
-## Cách dùng bộ tài liệu
+## Quick start
 
-1. Bắt đầu với `docs/00_navigator.md`
-2. Đọc `docs/01_analysis-method-and-snapshot.md` để hiểu phạm vi và phương pháp
-3. Đi theo track theo vai trò:
-   - Architect: `22 -> 26`
-   - Agent Engineer: `23 + 07 + 08 + 09 + 15`
-   - LLM Engineer: `24 + 10 + 11 + 12 + 13`
-   - Data Scientist: `25 + 12 + 13 + 19 + 20`
+1. Đọc `docs/deep-dive-v2/00_navigator.md`
+2. Chọn track theo vai trò
+3. Dùng `docs/baseline-v1/` làm tham chiếu so sánh evolution giữa v1 và v2
 
-## Cấu trúc
+## Quy mô snapshot (ước lượng)
 
-- `docs/00-21`: nền tảng kỹ thuật theo subsystem
-- `docs/22-25`: playbook theo persona
-- `docs/26`: rủi ro, nợ kỹ thuật, roadmap
+- Total files: ~6,245
+- LOC trong `src/`: ~654,679
+- TS files toàn repo: ~4,427
+- Tests trong `src` (test/e2e/live): ~1,355
+- Plugin manifests: 36
 
-## Lưu ý
+## Ghi chú
 
-Bộ tài liệu này thiên về kỹ thuật phần mềm và vận hành agent platform, không thay thế tài liệu chính thức của OpenClaw.
+Bộ tài liệu tập trung vào implementation và kiến trúc runtime. Không thay thế tài liệu vận hành chính thức của OpenClaw.
